@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static', filename='gaya.css')}}">
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Selamat Datang di Website Tugas Pemrograman 1</h1>
+      <h2>Oleh <span>Wardatul ummi (2048555111) </span></h2>
+      <ul>
+        <li><a href="{{ url_for('home')}}" class="active">Home</a></li>
+        <li><a href="{{ url_for('tambahdata')}}">Tambah Data</a></li>
+        <li><a href="{{ url_for('listdata')}}">Data Mahasiswa</a></li>
+        <li><a href="{{ url_for('loginmhs')}}">Login</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <img src="{{url_for('static', filename='war.jpg')}}" width="150px">
+      <h1>Hallo.. gaess saya Wardatul Ummi </h1>
+      <h2>Mahasiswa STMIK Syaikh Zainudin NW Anjani </h2>
+      <p>Ini adalah tugas Pemrograman 1 yang berjudul membuat WEBFLASK
+        sebelum lanjut, apa sih pemrograman itu? pemrograman adalah proses membuat program di komputer. Pembuatan program ini bisa berupa 
+        website, software, aplikasi android, dan sebagainya. Pemrograman dimulai melalui beberapa tahapan, 
+        seperti tulis-menulis, menguji, merevisi, mengevaluasi, serta pengujian kembali
+      </p>
+    </div>
+  </body>
+</html>

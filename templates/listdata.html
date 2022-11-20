@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="{{url_for('static', filename='gaya.css')}}">
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <h1>List Data Mahasiswa</h1>
+      <ul>
+        <li><a href="{{ url_for('home')}}">Home</a></li>
+        <li><a href="{{ url_for('tambahdata')}}">Tambah Data</a></li>
+        <li><a href="{{ url_for('listdata')}}" class="active">Data Mahasiswa</a></li>
+        <li><a href="{{ url_for('loginmhs')}}">Login</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <table class="styled-table">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>Alamat</th>
+                <th>Tgl Lahir</th>
+                <th>Jenis Kelamin</th>
+                <th>Email</th>
+                <th>NIM</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Wardatul ummi</td>
+                <td>Sukamandi/Lenek/LOTIM/NTB</td>
+                <td>2002-11-11</td>
+                <td>perempuan</td>
+                <td>wardatulummi02@gmail.com</td> 
+                <td>20485501</td> 
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Ruswanti Mulyana</td>
+                <td>Sikur/Keruak/Lotim</td>
+                <td>2002-01-11</td>
+                <td>perempuan</td>
+                <td>ruswantimulyana@gmail.com</td>
+                <td>20485502</td>  
+            </tr>
+            <tr>
+                <td>3</td>
+                <td> Zaenul Alqusairi</td>
+                <td>Lokon/Sepit/Keruak/Lotim</td>
+                <td>2002-11-10</td>
+                <td>Laki-Laki</td>
+                <td>EL@GAMIL.COM</td>
+                <td>20485503</td> 
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Rabiatul Adawiyah</td>
+                <td>Lokon/Sepit/Keruak/Lotim</td>
+                <td>2001-28-10</td>
+                <td>perempuan</td>
+                <td>rabiatuladawiyah@gmail.com</td>
+                <td>20485504</td> 
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Ira Miatun</td>
+                <td>Lendang nangka/masbagik/Lotim</td>
+                <td>1998-11-11</td>
+                <td>perempuan</td>
+                <td>iramiatun@gmail.com</td>
+                <td>20485505</td>  
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Riaqa Ulfaturrahmi</td>
+                <td>Rensing/Rensing/Keruak/Lotim</td>
+                <td>2002-28-9</td>
+                <td>perempuan</td>
+                <td>rizqaulaturrahmi@gmail.com</td> 
+                <td>20485506</td> 
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>Ulfaturrahmi</td>
+              <td>Rensing/Rensing/Keruak/Lotim</td>
+              <td>2002-10-9</td>
+              <td>perempuan</td>
+              <td>ulfaturrahmi@gmail.com</td>
+              <td>20485507</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Mahral Kusuma Hadi</td>
+              <td>Anjani/Anjani/Suralaga/Lotim</td>
+              <td>2002-11-9</td>
+              <td>Laki-laki</td>
+              <td>mahralkusuma@gmail.com</td>
+              <td>20485508</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>M.Nasiruddin</td>
+              <td>Labuan Lombok/labuan lombok/Pelabuhan/Lotim</td>
+              <td>2001-19-9</td>
+              <td>Laki-laki</td>
+              <td>nasirudin@gmail.com</td>
+              <td>20485509</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>Nurudin</td>
+              <td>Kalijaga Barat/Kalijaga/Lotim</td>
+              <td>2001-7-8</td>
+              <td>Laki-laki</td>
+              <td>nurudin@gmail.com</td>
+              <td>20485510</td>
+
+
+
+
+        </tbody>
+    </table>
+      
+    </div>
+  </body>
+</html>
